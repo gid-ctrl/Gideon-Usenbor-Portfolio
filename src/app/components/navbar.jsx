@@ -4,6 +4,7 @@ import React, {useState} from 'react'
 import Link from 'next/link'
 import NavLink from './navlink'
 import {Bars3Icon, XmarkIcon} from "@heroicons/react/24/solid"
+import MenuOverlay from './menuoverlay'
 
 const navLinks = [
     {
@@ -44,7 +45,7 @@ const Navbar = () => {
               onClick={() => setNavbarOpen(false)}
               className="flex items-center px-3 py-2  border-slate-200 text-slate-200 hover:text-white hover:border-white"
             >
-              <XMarkIcon className="h-5 w-5" />
+              <XmarkIcon className="h-5 w-5" />
             </button>
           )}
         </div>
@@ -58,6 +59,7 @@ const Navbar = () => {
             </ul>
         </div>
         </div>
+        {navbarOpen ? <MenuOverlay links={navLinks}/> : null}
         </nav>
   )
 }

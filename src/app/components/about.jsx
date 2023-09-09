@@ -24,8 +24,8 @@ const TAB_DATA = [
       id: "education",
       content: (
         <ul className="list-disc pl-2">
-          <li>Nottingham Trent University - Bachelor of Law & Masters of Law</li>
           <li>Boolean UK - Fullstack Developer</li>
+          <li>Nottingham Trent University - Bachelor of Law & Masters of Law</li>
         </ul>
       ),
     },

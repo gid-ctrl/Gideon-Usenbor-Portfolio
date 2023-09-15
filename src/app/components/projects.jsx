@@ -22,7 +22,7 @@ const projectsData = [
       description: "CRUD app called WeShare, that allows you to share a web message with the world.",
       image: "/images/projects/second-project-homepage.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/gid-ctrl/weshare.git",
       previewUrl: "/",
     },
     {
@@ -40,7 +40,7 @@ const projectsData = [
       description: "Spotify clone using HTML, CSS, and JavaScript, showcasing front-end skills in web page layout, styling, and responsiveness.",
       image: "/images/projects/spotify-clone.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/gid-ctrl/Spotify-Clone.git",
       previewUrl: "/",
     },
   ];

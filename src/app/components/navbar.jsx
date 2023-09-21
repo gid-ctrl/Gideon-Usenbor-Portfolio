@@ -37,7 +37,7 @@ const Navbar = () => {
       <Link href="/">
   <p className="text-xl md:text-5xl text-white font-semibold">
   <Image
-              src="/images/Gideon-Logo.png"
+              src="/images/Gideon-logo.png"
               alt="hero image"
               className="h-21 w-21 mr-2" 
               width={120} 

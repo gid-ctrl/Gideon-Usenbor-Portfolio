@@ -13,7 +13,7 @@ const projectsData = [
       description: "Here is my Portfolio Website, using Next.Js to create the website",
       image: "/images/Gideon-logo.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "/https://github.com/gid-ctrl/Gideon-Usenbor-Portfolio",
       previewUrl: "/",
     },
     {
@@ -27,11 +27,21 @@ const projectsData = [
     },
     {
       id: 3,
+      title: "GreenGrocers Shopping Cart",
+      description: "Exploring a common scenario in eCommerce, adding and removing items from the cart, and calculating the total.",
+      image: "/images/projects/greengrocer-exercise.gif",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/gid-ctrl/GreenGrocers-shopping-cart.git",
+      previewUrl: "/",
+    },
+    
+    {
+      id: 4,
       title: "Cohort Manager",
       description: "Team Development simulation working on a real-world application",
-      image: "/images/projects/",
+      image: "/images/projects/CohortManager.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/gid-ctrl/team-dev-client-c10#readme",
       previewUrl: "/",
     },
     {
@@ -43,6 +53,7 @@ const projectsData = [
       gitUrl: "https://github.com/gid-ctrl/Spotify-Clone.git",
       previewUrl: "/",
     },
+    
   ];
   
   const ProjectsSection = () => {

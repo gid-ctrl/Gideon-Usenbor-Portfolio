@@ -12,10 +12,14 @@ const TAB_DATA = [
         <ul className="list-disc pl-2">
           <li>JavaScript</li>
           <li>HTML</li>
-          <li>PostgreSQL</li>
           <li>CSS</li>
-          <li>Git</li>
           <li>React</li>
+          <li>TypeScript</li>
+          <li>Git</li>
+          <li>PostgreSQL</li>
+          <li>Node.JS </li>
+          <li>Restful API</li>
+          <li>MongoDB</li>
         </ul>
       ),
     },
@@ -34,7 +38,7 @@ const TAB_DATA = [
       id: "certification",
       content: (
         <ul className="list-disc pl-2">
-          <li>Full Stack Software Developer - Boolean Uk</li>
+          <li>Full Stack Software Developer - Boolean UK</li>
         </ul>
       ),
     },

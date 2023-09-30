@@ -14,6 +14,9 @@ const EmailSection = () => {
         <p className='text-[#ADB7BE] mb-4 max-w-md'>
           {"Hi! I'm currently looking for new opportunities, for work, please feel free to get back to me!"}
         </p>
+        <p className='text-[#ADB7BE] mb-4 max-w-md'>
+          {"Please get in contact with me through my email: giddyu.gu@gmail.com"}
+        </p>
         <div className='socials flex flex-row gap-2'>
           <Link href="https://github.com/gid-ctrl">
             <Image src={GithubIcon} alt='Github Icon' />

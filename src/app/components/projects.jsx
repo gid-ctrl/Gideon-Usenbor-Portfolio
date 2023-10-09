@@ -13,7 +13,7 @@ const projectsData = [
       description: "Here is my Portfolio Website, using Next.Js to create the website",
       image: "/images/Gideon-logo.png",
       tag: ["All", "Web"],
-      gitUrl: "/https://github.com/gid-ctrl/Gideon-Usenbor-Portfolio",
+      gitUrl: "https://github.com/gid-ctrl/Gideon-Usenbor-Portfolio",
       previewUrl: "/",
     },
     {
